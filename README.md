@@ -3,7 +3,9 @@
 This is a software development exercise for a FirstBlood Technologies frontend developer position.
 
 If you have not applied yet, apply through [StackOverlow page](https://stackoverflow.com/jobs/companies/firstblood).
-This exercise is open only for candidates who we have send an email to complete the exercise.
+
+This exercise is open only for candidates who were invited from the exercise beforehand.
+If you did not get invited please do not take this exercise.
 
 # Exercise
 
@@ -30,7 +32,8 @@ Task:
   what phone number country code is. Feel free to use your favorite phone number
   widget.
 
-- Add a phone number to the existing dashboard screen, so that users can see their registered phone number
+- Add a phone number to the existing dashboard screen, so that users can see the phone number
+  associated with their account
 
 - Add end-to-end tests for the new registration functionality
   - Registration success - validated by having the information visible on the dashboard screen
@@ -47,7 +50,8 @@ Task:
   - Commentary on other application structure you would prefer to change if you were to take over the whole application,
     or other useful suggestions
 
-- As the application is unfinished, we are focusing only on the UX of the registration screen
+- As the application is unfinished, we are focusing only on the UX of the registration screen,
+  not on issues like project file layout
 
 ## How to submit the exercise
 
@@ -63,14 +67,12 @@ Task:
 We will look
 
 1. Whether the task was correctly completed and every instruction was followed
-2. Visual quality of the user interface changes - the layouts must look professional, extra points for eye candy and something that looks very video gaming
+2. Visual quality of the user interface changes - the layouts must look professional, extra points for eye candy and something that looks video gamey
 3. Tests pass: both new and old
 4. Pull request description quality - the pull request must look like a professional
 5. Code comment quality - if your code lacks helpful comments you will be negatively scored for it
 
 # How to run code
-
-The assessment is based on Angular 8 scaffolding.
 
 ## Development server
 
@@ -117,6 +119,8 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Running tests with Visual Studio Code
 
 You can also run tests under [Visual Studio Code with debug/breakpoint support with these instructions](https://github.com/microsoft/vscode-recipes/tree/master/Angular-CLI#debug-end-to-end-tests).
 
