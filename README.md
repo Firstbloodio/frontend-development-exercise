@@ -25,7 +25,9 @@ Task:
     - Display name
     - Phone number in an international plus prefixed format, like `+1 555 1231234`
 
-- Make the the registration screen look professional. Now it is intentionally made to look ugly.
+- Make the the registration screen look professional and satisfy modern web UX requirements, 
+  regarding style, validation and user friendliness.
+  Now it is intentionally made to look ugly.
 
 - Think phone number input UX.
   A phone number widget must have a good UX for global visitors who might lack an understanding
